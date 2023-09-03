@@ -1,7 +1,7 @@
 import FormInput from "../FormInput/form-input.component"
 let SignIn = () => {
   return (
-    <FormInput />
+    <FormInput label={'Email'} attributes={type = 'email',} />
   )
 }
 export default SignIn
