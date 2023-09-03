@@ -1,13 +1,11 @@
 import logo from './logo.svg';
-import Test from './routes/test-component/test.component';
-import Navigation from './components/navigation/navigation.component';
 import { Routes, Route } from 'react-router-dom'
-im
+import Authentication from './routes/Authentication/authentication.component';
+import Home from './routes/Home/home.component';
 function App() {
   return (
     <Routes  >
-      <Route path='/' element={<Navigation />}>
-      </Route>
+      <Route path='/' element={<Authentication />} />
     </Routes>
   );
 }
