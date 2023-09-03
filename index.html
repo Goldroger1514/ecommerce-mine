@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    #comptencies {
+      width: 600px;
+      background-color: #eee;
+      margin: 20px auto;
+      display: flex;
+      align-items: center;
+      padding: 10px;
+    }
+
+    h3 {
+      margin: 0;
+    }
+
+    .skills-primary {
+      background-color: red;
+    }
+
+    .skills-secondary {
+      background-color: blue
+    }
+
+    .skills {
+      display: flex
+    }
+
+    #comptencies {
+      display: flex;
+    }
+
+    .skills {
+      border: 1px solid #ccc;
+      padding: 10px;
+      margin: 10px;
+    }
+
+    .skills-primary {
+      order: 1;
+      /* Order within the flex container */
+    }
+
+    .skills-secondary {
+      order: 2;
+      /* Order within the flex container */
+    }
+
+    h3 {
+      margin-right: 10px;
+    }
+  </style>
+</head>
+
+<body>
+  <section id="comptencies">
+    <h3>Compontencies</h3>
+    <div class="skills skills-primary">
+      <div class="skill">
+        <span>HTML</span>
+      </div>
+      <div class="skill">
+        <span>CSS</span>
+      </div>
+      <div class="skill">
+        <span>JS</span>
+      </div>
+    </div>
+    <div class="skills skills-secondary">
+      <div class="skill">
+        <span>HTML</span>
+      </div>
+      <div class="skill">
+        <span>CSS</span>
+      </div>
+      <div class="skill">
+        <span>JS</span>
+      </div>
+    </div>
+  </section>
+</body>
+
+</html>

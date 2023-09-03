@@ -1,0 +1,9 @@
+.category-container {
+  height: 240px;
+
+  &.mens,
+  &.womens {
+    width: 45%;
+    height: 380px
+  }
+}
