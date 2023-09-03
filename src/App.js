@@ -1,8 +1,9 @@
 import logo from './logo.svg';
 import Test from './routes/test-component/test.component';
+import Navigation from './components/navigation/navigation.component';
 function App() {
   return (
-    <Test />
+    <Navigation />
   );
 }
 export default App;
